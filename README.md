@@ -34,7 +34,7 @@ func showUser(w http.ResponseWriter, r *http.Request) {
 
     // Get a map of all
     // route variables.
-    vm := zues.Vars(r)
+    vm := zeus.Vars(r)
 
     id = vm["id"]
 
